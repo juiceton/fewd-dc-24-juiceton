@@ -1,5 +1,6 @@
 body {
-
+    padding: 20px;
+    font-family: sans-serif;
 }
 
 .commonstyles a {
@@ -14,10 +15,10 @@ body {
 }
 
 .commonstyles h1 {
-
 }
 
 .commonstyles h2 {
+    margin-bottom: .3em;
 }
 
 .commonstyles h3 {
