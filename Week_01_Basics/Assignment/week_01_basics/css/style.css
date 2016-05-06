@@ -1,6 +1,7 @@
 body {
     padding: 20px;
     font-family: sans-serif;
+    color: #05080C;
 }
 
 .commonstyles a {
@@ -19,6 +20,7 @@ body {
 
 .commonstyles h2 {
     margin-bottom: .3em;
+    text-transform: uppercase;
 }
 
 .commonstyles h3 {
@@ -57,11 +59,15 @@ body {
   margin-bottom: 20px;
   border: 1px solid #222222;
   padding: 5px;
-  text-align: center
+  text-align: center;
 }
 
 .commonstyles img[alt] {
-  float: right;
+}
+
+img {
+    float: left;
+    max-width: 250px;
 }
 
 .toc {
