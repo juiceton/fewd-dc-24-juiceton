@@ -7,3 +7,35 @@
  pageFooter should be blue and 100% width
 
  */
+
+.pageHeader {
+  background-color: red;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main {
+  background-color: yellow;
+  width: 60%;
+  float: left;
+}
+
+.sideBar {
+  background-color: green;
+  width: 40%;
+  float: right;
+}
+
+.pageFooter {
+  background-color: blue;
+  width: 100%;
+  overflow: hidden;
+}
+
+.placeholder {
+  border: black solid 1px;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 100px;
+}

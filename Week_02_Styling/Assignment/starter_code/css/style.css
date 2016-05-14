@@ -16,11 +16,135 @@
 }
 
 body {
-     color: #000;
+     color: #fff;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+/*Stylying for Masthead*/
+.masthead {
+  height: 500px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  padding-top: 1px;
+}
+
+.masthead h1 {
+  padding: 10px 0 0 100px;
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 30pt;
+}
+
+.masthead h2 {
+  text-align: center;
+  padding: 40px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25pt;
+}
+
+.masthead a {
+  text-align: center;
+  display: block;
+  background-color: #f9e42e;
+  margin: 0 auto;
+  width: 20%;
+  color: #121212;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+/*Styling for main copy*/
+.maincopy {
+  background-color: #f0efef;
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.benefits {
+  margin-top: 40px;
+  padding: 0 120px 40px 120px;
+}
+
+.maincopy h2 {
+  color: #033048;
+  font-size: 25pt;
+}
+
+.bullets {
+  color: #121212;
+  font-size: 18px;
+}
+
+
+/*Styling for testimonial*/
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  background-size: cover;
+  height: 400px;
+  margin: 0 auto;
+  padding-top 500px;
+}
+
+.quote {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 30px;
+  font-family: 'Open-Sans' 300;
+  font-style: italic;
+  padding: 50px 225px 100px 225px;
+}
+
+.quote em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/*Styling for Signup*/
+.signup {
+  background-color: #f9e42e;
+  width: 100%;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.signupbox a {
+  text-align: center;
+  display: block;
+  background-color: #033048;
+  margin: 0 auto;
+  width: 20%;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 2px 0;
+  text-decoration: none;
+}
+
+/*Styling for Social Media*/
+.socialmedia {
+  background-color: #121212;
+  width: 100%;
+  height: 300px;
+}
+
+.socialmedia img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 

@@ -1,0 +1,27 @@
+body {
+  margin: 40px;
+  background-color: whitesmoke;
+}
+
+
+p {
+  color: slategray;
+}
+
+p em {
+  color: black;
+}
+
+blockquote {
+  border-left: solid darkgray 3px;
+  padding-left: 10px;
+  margin-left: 0;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+blockquote p em {
+  font-style: normal;
+}

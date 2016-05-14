@@ -1,0 +1,29 @@
+body {
+  margin: 30px;
+  font-family: sans-serif;
+}
+
+#notification {
+  border: solid gray 1px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.message {
+  background-color: lightgoldenrodyellow;
+  border: solid darkgray 3px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.error {
+  background-color: rgba(204, 51, 51, .2);
+  border: solid rgb(204,51,51) 3px;
+}
+
+code {
+  border: solid gray 1px;
+  background-color: rgba(150, 150, 150, .15);
+  padding: 0 3px;
+  border-radius: 5px;
+}

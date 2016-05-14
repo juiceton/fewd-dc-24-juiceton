@@ -1,0 +1,23 @@
+.head {
+  background-color: blue;
+  width: 100%;
+}
+
+.main {
+  background-color: green;
+  float: left;
+  width: 50%;
+  min-height: 150px;
+}
+
+.sec {
+  background-color: yellow;
+  float: right;
+  width: 50%;
+  min-height: 150px;
+}
+
+.foot {
+  background-color: red;
+  width: 100%;
+}
