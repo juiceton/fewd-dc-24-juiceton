@@ -169,6 +169,11 @@ article {
   font-weight: 300;
 }
 
+.catergories ul li a {
+  text-decoration: none;
+  color: #033048;
+}
+
 .ad {
   max-height: 100%;
   max-width: 100%;
