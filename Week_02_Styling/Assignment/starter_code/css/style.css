@@ -15,6 +15,10 @@
   height: 0;
 }
 
+* {
+  line-height: 1.4;
+}
+
 body {
   color: #fff;
   font-size: 12px;
@@ -32,11 +36,12 @@ a {
   height: 500px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
+  background-attachment: fixed;
   padding-top: 1px;
 }
 
 .masthead h1 {
-  padding: 10px 0 0 100px;
+/*  padding: 10px 0 0 100px;*/
   margin-top: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -45,7 +50,7 @@ a {
 
 .masthead h2 {
   text-align: center;
-  padding: 40px 0;
+/*  padding: 40px 0;*/
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 25pt;
@@ -70,17 +75,17 @@ a {
   height: 400px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 10px;
+/*  padding-top: 10px;*/
 }
 
 .benefits {
-  margin-top: 40px;
-  padding: 0 120px 40px 120px;
+/*  margin-top: 40px;*/
+/*  padding: 0 120px 40px 120px;*/
 }
 
 .maincopy h2 {
   color: #033048;
-  font-size: 25pt;
+/*  font-size: 25pt;*/
 }
 
 .bullets {
@@ -93,6 +98,7 @@ a {
 .testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
   background-size: cover;
+  background-attachment: fixed;
   height: 400px;
   margin: 0 auto;
   padding-top 500px;
