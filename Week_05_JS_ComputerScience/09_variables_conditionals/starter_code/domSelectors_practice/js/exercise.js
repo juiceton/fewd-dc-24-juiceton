@@ -10,25 +10,25 @@
 /**
  * Question 1:
  * When, button 1 is clicked, select all paragraphs on the page with jQuery, and changed the color to blue.
- * We've started you off, replace the sec
+ * We've started you off, replace the second
  */
- 
-	function question1(){
-		$("replaceMe").css("replaceMe", "replaceMe");
-	}
-
-	$("#button1").click(question1);
+// 
+//	function question1(){
+//		$("p").css("color", "blue");
+//	}
+//
+//	$("#button1").click(question1);
 
 /**
  * Question 2:
  * When button 1 is clicked, select all <h2> elements on this page, and change the text to say your name.
  */
 
-	// function question2(){
-	// 	$("replaceMe").replaceMe("replaceMe");
-	// }
-
-	// $("#button1").click(question2);
+//	function question2(){
+//		$("h2").text("Justin");
+//	}
+//
+//	$("#button1").click(question2);
 
 /**
  * Question 3:
@@ -36,11 +36,11 @@
  * Using jQuery change the content to read "True Fact".
  */
 
-	// function replaceMe(){
-	// 	$("replaceMe").html("replaceMe");
-	// }
+	 function question3(){
+	 	$(".falseFact").html("True Fact");
+	 }
 
-	// $("#button1").click(question3);
+	 $("#button1").click(question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
@@ -49,19 +49,33 @@
  * When button 2 is clicked, change the background color of the whole page to "pink"
  */
 
-
+//	function question4(){
+//		jQuery("body").css("background-color", "pink");
+//	}
+//
+//	jQuery('#button2').click(question4);	
 
 /**
  * Question 5:
  * When button 2 is clicked, change the color of all h2's to "green"
  */
 
-
+//	function question5(){
+//		jQuery("h2").css("color", "green");
+//	}
+//
+//	jQuery('#button2').click(question5);
 
 /**
  * Question 6:
  * When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
+
+	function question6(){
+		jQuery("blockquote").text("<span>no quote</span>");
+	}
+
+	jQuery('#button2').click(question6);
 
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
@@ -71,12 +85,25 @@
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
 
+//function question7(){
+//	jQuery("header h1").text("jQuery Ninja");
+//}
+//
+//jQuery('#button3').click(question7);
+
 
 /**
  * Question 8:
  * Have the following code execute when button 3 is clicked. Write a JavaScript comment with a description of what happened. 
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
+
+//function question8(){
+//	jQuery(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+//	console.log('Sushi time');
+//}
+//
+//jQuery('#button3').click(question8);
 
 
 /**
@@ -85,6 +112,14 @@
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
 
+	function question9(){
+		jQuery('p').css({
+			'color': 'blue',
+			'font-family': 'Georgia',
+		});
+	}
+
+	jQuery('#button3').click(question9);
 
 
 
