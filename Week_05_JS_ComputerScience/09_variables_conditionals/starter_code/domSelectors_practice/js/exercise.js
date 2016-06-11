@@ -55,6 +55,7 @@
 //
 //	jQuery('#button2').click(question4);	
 
+
 /**
  * Question 5:
  * When button 2 is clicked, change the color of all h2's to "green"
