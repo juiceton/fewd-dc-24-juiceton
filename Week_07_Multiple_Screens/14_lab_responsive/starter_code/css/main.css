@@ -184,3 +184,65 @@ a {
     position: relative;
     top: 5px;
 }
+
+#nav-ham {
+	display: none;
+}
+
+.vert-nav li a {
+	color: white;
+	font-size: 22px;
+	display: inline-block;
+}
+
+.hideIt {
+	display: none;
+}
+
+@media screen and (max-width: 960px) {
+	
+	.navigation {
+		float: none;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	li {
+		margin: auto 0;
+		max-width: 100%;
+	}
+	
+	li a {
+		color: white;
+		text-align: center;
+	}
+	
+	.container {
+		width: 100%;
+	}
+	
+	.block {
+		width: 100%;
+	}
+	
+	.block-heading {
+		color: red;
+	}
+	
+	.main-nav {
+		display: none;
+	}
+	
+	#nav-ham {
+		display: inline-block;
+		font-size: 22px;
+	}
+	
+	.postChange {
+	text-align: center;
+	max-width: 100%;
+	margin: 0 auto;
+	color: white;
+	font-size: 22px;
+
+}

@@ -64,7 +64,8 @@ a {
 
 /* Center the container */
 .container {
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
 }
 .logo {
@@ -93,6 +94,21 @@ header nav ul li {
 }
 header nav ul li a {
   color: #f9e42e;
+}
+header nav .line{
+  width: 3em;
+  height: .3em;
+  background: #f9e42e;
+  border-radius: 1em;
+  margin-top: .25em;
+}
+header nav .line:first-of-type{
+  margin-top:.7em;
+}
+header nav li:first-child{
+  float:right;
+  display: none;
+  cursor: pointer;
 }
 
 #hero {
@@ -156,7 +172,7 @@ blockquote {
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  width: 580px;
+  width: 75%;
   margin: 0 auto;
 }
 blockquote span {
@@ -168,13 +184,13 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 700px;
+  width: 73%;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 1.95%;
   vertical-align: top;
 }
 #sidebar {
-  width: 240px;
+  width: 25%;
   display: inline-block;
   vertical-align: top;
 }
@@ -288,5 +304,106 @@ footer p {
   font-weight: 600;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  header {
+    padding: 10px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .logo {
+    font-size: 36px;
+  }
+  header nav {
+    width: 100%;
+    margin: 0;
+  }
+  header nav ul li{
+    float: none;
+    display: block;
+    margin: 0;
+    font-size: 18px;
+  }
+  header nav ul li:first-child{
+    display:block;
+    position: absolute;
+    top:.6em;
+    right:.75em;
+  }
+  header nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+  header nav ul{
+    height:0;
+    transition:height 1s;
+    overflow: hidden;
+  }
+  header nav ul.slideDown {
+    height: 10em;
+  }
+  #hero {
+    height: auto;
+    padding: 30px 0 50px;
+  }
+  #hero h2 {
+    font-size: 28px;
+    margin: 40px 0 60px;
+  }
+  #benefits {
+    padding: 30px 0;
+  }
+  #benefits p, #benefits ul {
+    width: 82%;
+    margin: 0 auto 20px;
+  }
+  blockquote {
+    font-size: 20px;
+    width: 90%;
+  }
+  #main {
+    margin-top: 25px;
+  }
+  footer .logo, footer ul li {
+    margin-bottom: 30px;
+  }
+  #posts, #sidebar {
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+  }
+  .post h2 {
+    font-size: 24px;
+  }
+  .post p {
+    font-size: 18px;
+  }
+  .post p:first-of-type:first-letter {
+    float: none;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0;
+    font-weight: 300;
+  }
+  .post img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #sidebar h3 {
+    font-size: 24px;
+  }
+  #sidebar ul li a, #sidebar p {
+    font-size: 18px;
+  }
+  #sidebar img {
+    display: none;
+  }
+}
 
 

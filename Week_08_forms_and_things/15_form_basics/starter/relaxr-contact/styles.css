@@ -46,9 +46,62 @@ header nav ul li a {
   color: #f9e42e;
 }
 
+.navBar {
+	padding: 0 20px;
+}
+
+.inputFields {
+	padding-right: 40px;
+}
+
+.starter {
+	border-bottom: 1px solid #ccc;
+}
+
 /* -------------------------------- 
 
 Form
 
 -------------------------------- */
+.needInput {
+	padding-bottom: 20px;
+	display: block;
+}
 
+input {
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+input[type=text] {
+	border-radius: 6px;
+	padding-left: 35px;
+}
+
+.formName input[type=text] {
+	background: url(img/cd-icon-user.svg) no-repeat scroll 7px 7px;
+}
+
+.formCompany input[type=text] {
+	background: url(img/cd-icon-company.svg) no-repeat scroll 7px 7px;
+}
+
+.formEmail input[type=text] {
+	background: url(img/cd-icon-email.svg) no-repeat scroll 7px 7px;
+}
+
+textarea {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	width: 100%;
+	resize: none;
+	background: url(img/cd-icon-message.svg) no-repeat scroll 7px 7px;
+}
+
+textarea[type=text] {
+	padding-left: 35px;
+}
+
+button {
+	
+}

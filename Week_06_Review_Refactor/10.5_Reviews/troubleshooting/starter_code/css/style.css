@@ -83,12 +83,16 @@ a {
     margin: 0 auto;
 }
 
-.breedsOuterContainer > h1 {
+.breedsOuterContainer h1 {
     font-weight: 600;
     font-size: 28px;
     color: rgb(10,15,10);
-    text-transform:allcaps;
+    text-transform: capitalize;
 }
+
+h1 .parentTitle {
+	text-transform: uppercase;
+} 
 
 /* Single Breed Container */
 
